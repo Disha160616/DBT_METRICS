@@ -59,4 +59,4 @@ joined as (
 
 )
 
-select * from joined
+select * from joined limit 10
