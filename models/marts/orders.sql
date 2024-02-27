@@ -43,4 +43,4 @@ compute_booleans as (
     left join order_items_summary on orders.order_id = order_items_summary.order_id
 )
 
-select * from compute_booleans limit 10
+select * from compute_booleans 
